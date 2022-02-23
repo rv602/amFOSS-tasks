@@ -11,19 +11,19 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-00">Task-00</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-00">Task-00</a></td>
 <td>Installing Ubuntu</td>
 <td>Completed </td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-01">Task-01</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-01">Task-01</a></td>
 <td>Staring amFOSS repositories</td>
 <td>Completed</td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-02">Task-02</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-02">Task-02</a></td>
 <td>Begin your journey with Linux and Git</td>
 <td>Completed</td>
 </tr>
@@ -35,13 +35,13 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-04">Task-04</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-04">Task-04</a></td>
 <td>Aerglo Mars</td>
 <td>Completed</td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-05">Task-05</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-05">Task-05</a></td>
 <td>Let me C</td>
 <td>Completed</td>
 </tr>
@@ -59,7 +59,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-08">Task-08</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-08">Task-08</a></td>
 <td>JS Explorer</td>
 <td>Completed</td>
 </tr>
@@ -77,7 +77,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-11">Task-11</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-11">Task-11</a></td>
 <td>Poster Design</td>
 <td>Completed</td>
 </tr>
@@ -101,7 +101,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-15">Task-15</a></td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-15">Task-15</a></td>
 <td>Project Euler</td>
 <td>Completed</td>
 </tr>
