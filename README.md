@@ -47,7 +47,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td>Task-06</td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-06">Task-06</a></td>
 <td>Flutter based UI task</td>
 <td>Completed</td>
 </tr>
@@ -65,13 +65,13 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td>Task-09</td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-09">Task-09</a></td>
 <td>Setup a Simple Personal Website</td>
 <td>Completed</td>
 </tr>
 
 <tr>
-<td>Task-10</td>
+<td><a href="https://github.com/rv602/amFOSS-tasks/tree/master/task-10">Task-10</a></td>
 <td>CS50</td>
 <td>Completed</td>
 </tr>
