@@ -29,9 +29,9 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-03">Task-03</a></td>
+<td>Task-03</td>
 <td>Programming</td>
-<td>Done 1 problem</td>
+<td>Not Attempted</td>
 </tr>
 
 <tr>
