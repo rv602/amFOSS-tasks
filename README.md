@@ -73,7 +73,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 <tr>
 <td>Task-10</td>
 <td>CS50</td>
-<td>Not Attempted</td>
+<td>Completed</td>
 </tr>
 
 <tr>
@@ -89,15 +89,15 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-13">Task-13</a></td>
+<td>Task-13</td>
 <td>Circuit Design</td>
-<td>Completed</td>
+<td>Not Attempted</td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-14">Task-14</a></td>
+<td>Task-14</td>
 <td>Bandit</td>
-<td>Completed</td>
+<td>Not Attempted</td>
 </tr>
 
 <tr>
