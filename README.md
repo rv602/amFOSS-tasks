@@ -13,7 +13,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 <tr>
 <td><a href="https://github.com/rv602/amFOSS-tasks/tree/main/task-00">Task-00</a></td>
 <td>Installing Ubuntu</td>
-<td>NA (Mac) </td>
+<td>Completed </td>
 </tr>
 
 <tr>
