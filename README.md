@@ -67,7 +67,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 <tr>
 <td>Task-09</td>
 <td>Setup a Simple Personal Website</td>
-<td>Not Attempted</td>
+<td>Completed</td>
 </tr>
 
 <tr>
