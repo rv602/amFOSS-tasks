@@ -49,7 +49,7 @@ I am R.V.Rajagopalan from Thane, Mumbai,fresher at Amrita School of Engineering 
 <tr>
 <td>Task-06</td>
 <td>Flutter based UI task</td>
-<td>Not Attempted</td>
+<td>Completed</td>
 </tr>
 
 <tr>
