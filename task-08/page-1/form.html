@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crust</title>
-    <link href="salami-pizza.png" type="image/x-icon" />
+    <link href="/task-08/page-1/images/salami-pizza.png" type="image/x-icon" />
     <!-- display the favicon on titlebar -->
-    <link href="style.css" rel="stylesheet" />
+    <link href="/task-08/page-1/css/style.css" rel="stylesheet" />
     <!-- link stylesheet -->
   </head>
   <body translate="no">
     <div class="pizza-box">
       <div class="left-container">
         <img
-          src="pizza-crusts.jpeg"
+          src="/task-08/page-1/images/pizza-crusts.jpg"
           alt="chart with different types of pizza crusts"
         />
         <!-- display the image -->
@@ -74,20 +74,6 @@
                     value="male"
                   />
                   <label for="gender-male">Male</label>
-                  <input
-                    id="gender-transgender"
-                    name="gender"
-                    type="radio"
-                    value="Transgender"
-                  />
-                  <label for="gender-transgender">Transgender</label>
-                  <input
-                    id="gender-others"
-                    name="gender"
-                    type="radio"
-                    value="Others"
-                  />
-                  <label for="gender-others">Others</label>
                 </div>
               </div>
             </div>
@@ -132,16 +118,12 @@
             <div class="set">
               <button>Reset</button>
               <!-- make next button work -->
-              
               <button
                 type="button"
                 class="next"
-
-                onclick="this.classList.add('button--loading');document.location='index2.html'"
-                >
-                Next
-              </button>
-                <!-- <a href="" class="button">Next</a> -->
+                onclick="this.classList.add('button--loading');document.location='/task-08/page-2/index.html'"
+              >
+                <span class="button__text">Next</span>
             </div>
           </footer>
         </form>

@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: url("bg-high.jpeg");
+  background: url("../images/bg-high.jpg");
   background-size: cover;
   color: rgba(0, 0, 0, 0.8);
   display: grid;
