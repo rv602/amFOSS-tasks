@@ -1,0 +1,267 @@
+:root {
+  --yellow: #f9ca24;
+}
+
+* {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /* text-transform: capitalize; */
+  transition: all 0.2s linear;
+}
+
+::selection {
+  background: var(--yellow);
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #222;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+header .user img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 0.7rem solid var(--yellow);
+}
+
+header .user .name {
+  font-size: 3.5rem;
+  color: white;
+}
+
+header .user .post {
+  font-size: 2rem;
+  color: white;
+}
+
+header .navbar {
+  width: 100%;
+}
+
+header .navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+header .navbar ul li a {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #333;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+header .navbar ul li a:hover {
+  background: rgb(192, 192, 64);
+}
+
+.name {
+  color: white;
+}
+
+#home {
+  margin-left: 520px;
+  margin-top: 0;
+  padding-top: 250px;
+  font-size: 5rem;
+  /* margin: 440px; */
+  padding-bottom: 50vh;
+}
+
+#home .hi {
+  color: white;
+}
+
+#home .name {
+  color: #f9ca24;
+}
+
+#about {
+  margin-left: 30%;
+  display: flex;
+}
+
+#about-1 {
+  display: block;
+  margin-right: 200px;
+}
+
+#about-2 {
+  display: block;
+}
+
+#about-1 h1 {
+  color: white;
+}
+
+#about-2 h1 {
+  color: white;
+}
+
+#timeline {
+  color: white;
+  margin-bottom: 120px;
+  margin-top: 70px;
+}
+
+.clg {
+    height: 80px;
+    margin-left: 340px;
+}
+
+.iscpic {
+    height: 80px;
+    margin-left: 450px;
+}
+
+.icsepic {
+    height: 80px;
+    margin-left: 410px;
+}
+
+.college {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid yellow;
+}
+
+.school-1 {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid yellow;
+}
+
+.school-2 {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid yellow;
+}
+
+.tlhead {
+    text-align: center;
+    font-size: 60px;
+}
+
+.blogheading {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+#blog {
+    margin-left: 400px;
+    margin-right: 50px;
+    margin-bottom: 250px;
+    margin-top: 120px;
+}
+
+#blog .heading h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#blog .content h1 {
+    color: white;
+}
+
+.line {
+    color: white;
+}
+
+.content ul li h1 a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  margin-left: 400px;
+}
+
+#contact {
+  margin-top: 8000px;
+  margin-bottom: 450px;
+}
+
+#contact h1 {
+  margin-left: 400px;
+  color: white;
+}
+
+.reachout {
+  font-size: 55px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+/* .linkedin {
+  margin-left: 400px;
+}  */
+
+.linkedinlogo {
+  height: 100px;
+}
+
+.twitterlogo {
+  height: 100px;
+  margin-left: 290px;
+}
+
+.githublogo {
+  height: 100px;
+  margin-left: 290px;
+  filter: invert(100%);
+}
+
+.gif {
+  margin-top: 30px;
+  margin-left: 600px;
+  width: 500px;
+}
