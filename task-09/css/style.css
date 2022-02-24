@@ -103,6 +103,8 @@ header .navbar ul li a:hover {
 }
 
 #home {
+  /* background-image: url(/task-09/img/background.jpeg); */
+  /* background-repeat: no-repeat; */
   margin-left: 520px;
   margin-top: 0;
   padding-top: 250px;
@@ -197,8 +199,8 @@ header .navbar ul li a:hover {
 #blog {
     margin-left: 400px;
     margin-right: 50px;
-    margin-bottom: 250px;
-    margin-top: 120px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 #blog .heading h1 {
@@ -226,7 +228,7 @@ header .navbar ul li a:hover {
 }
 
 #contact {
-  margin-top: 8000px;
+  margin-top: 10px;
   margin-bottom: 450px;
 }
 
