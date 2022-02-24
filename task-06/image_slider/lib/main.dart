@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-// import 'package:dots_indicator/dots_indicator.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // Color colorApp = const Color(0xffd6cbc7);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -33,13 +31,11 @@ class IntroPage extends StatelessWidget {
         skip: const Text('Skip'),
         showNextButton: true,
         next: const Text('Next'),
-        // next: const Icon(Icons.next),
         done: const Text("Get Started",
             style: TextStyle(fontWeight: FontWeight.w600)),
         dotsDecorator: DotsDecorator(
             size: const Size.square(10.0),
             activeSize: const Size(20.0, 10.0),
-            // activeColor: theme.accentColor,
             color: Colors.black26,
             spacing: const EdgeInsets.symmetric(horizontal: 3.0),
             activeShape: RoundedRectangleBorder(
@@ -52,8 +48,6 @@ class IntroPage extends StatelessWidget {
     return [
       PageViewModel(
           image: Center(
-            // child: Image.asset('image/page1.png')//, height: 175.0),
-            // child: Image.asset('/home/himanshu/StudioProjects/amfoss_app/image')//, height: 175.0),
             child: Image.asset('img/img1.png'),
           ),
           title: 'YOGA SURGE',
@@ -95,16 +89,14 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: const Color(0xffd6cbc7),
         ),
         body: Row(mainAxisSize: MainAxisSize.max, children: <Widget>[
-          Column(
-              // crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[
-                Image.asset('img/img5.png'),
-                const Text('R.V.Rajagopalan', textScaleFactor: 2),
-                const Text(
-                  'A chill guy, likes Gokart & Bowling',
-                  textScaleFactor: 1,
-                )
-              ])
+          Column(children: <Widget>[
+            Image.asset('img/img5.png'),
+            const Text('R.V.Rajagopalan', textScaleFactor: 2),
+            const Text(
+              'A chill guy, likes Gokart & Bowling',
+              textScaleFactor: 1,
+            )
+          ])
         ]));
   }
 }
