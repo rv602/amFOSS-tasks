@@ -1,141 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio & Blog</title>
-    <link
-      rel="shortcut icon"
-      href="/task-09/img/favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="/task-09/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="user">
-        <img src="/task-09/img/profile.jpeg" alt="" />
-        <h3 class="name">Rajagopalan</h3>
-        <p class="post">Artificial Intelligence student</p>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
 
-      <nav class="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!-- font awesome cdn link  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
 
-    <main>
-      <div id="home">
-        <h4 class="hi">Hi there ! 👋</h4>
-        <h2 class="name">I'm Rajagopalan</h2>
-      </div>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/task-09/css/style.css">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-      <div id="about">
-        <div id="timeline">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
 
-            <h1 class="tlhead">Education</h1>
-            <br>
+<!-- header section starts  -->
 
-          <div class="college">
+<header class="header">
 
-            <div class="college-info">
-              <h1>Bachelor of Technology</h1>
-              <h1 class="college-txt">Amrita Vishwa Vidyapeetham</h1>
-              <h1>Stream - Computer Science (Artificial Intelligence)</h1>
+    <a href="#" class="logo"><span>b</span>logger</a>
+
+    <nav class="navbar">
+        <a href="#banner">Home</a>
+        <a href="#posts">My posts</a>
+        <a href="#contact">Contact me</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner" id="banner">
+
+    <div class="content">
+        <h3>Explore the tech</h3>
+        <p>“Technology is best when it brings people together.”</p>
+        <a href="#posts" class="btn">My blogs</a>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- posts section starts  -->
+
+<section class="container" id="posts">
+
+    <div class="posts-container">
+
+        <div class="post" id="blog1">
+            <!-- <img src="blog-1.jpg" alt="" class="image"> -->
+            <img src="/task-09/img/pic1.jpeg" alt="" class="image">
+            <div class="date">
+                <i class="far fa-clock"></i>
+                <span>28th Feb 2022</span>
             </div>
-
-            <div class="college-pic">
-                <img class="clg" src="/task-09/img/2021.png" alt="">
+            <h3 class="title">My Experience on completing the tasks</h3>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestias rerum numquam, quos aut est culpa quisquam excepturi sed a inventore dicta tempore consequuntur possimus magnam corporis cum doloremque quasi fugiat exercitationem aliquid cupiditate pariatur. Dolor laboriosam voluptatem ex praesentium magni error debitis maxime alias autem distinctio. Fuga, esse velit!</p> -->
+            <p class="text">
+                As of now, I have completed 8/11 main tasks and 2/5 additional tasks. Completing the tasks was not an easy thing but it certainly wasn't impossible as well. 
+                <!-- It just required a bit of time and the patience to learn new concepts, googling and the issues faced while installing / setting up an environment. -->
+            </p>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reiciendis fugiat quas nemo quia omnis repellat obcaecati quaerat voluptates fuga error dicta cupiditate pariatur soluta dolorum quis eum quibusdam quam?</p> -->
+            <p class="text">
+                Post the task completion, I can say that I've definitely levelled up significantly as I learned how to use YouTube to your benifit, how to get your queries solved through StackOverflow etc and the basic Ternminal commands.
+            </p>
+            <div class="links">
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                    <span>by Rajagopalan</span>
+                </a>
+                <!-- <a href="#" class="icon">
+                    <i class="far fa-comment"></i>
+                    <span>(45)</span>
+                </a>
+                <a href="#" class="icon">
+                    <i class="far fa-share-square"></i>
+                    <span>(29)</span>
+                </a> -->
             </div>
-
-          </div>
-
-          <div class="school-1">
-
-            <div class="ISC">
-                <h1>11th & 12th</h1>
-                <h1>Smt.Sulochanadevi Singhania School</h1>
-                <h1>Optional Subject - Computer Science</h1>
-            </div>
-  
-            <div class="ISC-pic">
-                <img class="iscpic" src="/task-09/img/2019.png" alt="">
-            </div>
-
-          </div>
-
-          <div class="school-2">
-
-            <div class="ICSE">
-                <h1>4th - 10th Grade</h1>
-                <h1>Smt.Sulochanadevi Singhania School</h1>
-                <h1>Optional Subject - Computer Applications</h1>
-            </div>
-
-            <div class="ICSE-pic">
-                <img class="icsepic" src="/task-09/img/2013.png" alt="">
-            </div>
-
-          </div>
-
         </div>
-        
-      </div>
 
-      <div id="blog">
-          <br><br>
-          <h1 class="blogheading">Blog ✍️</h1>
-          <div class="heading">
-              <h1>My Experince on this task</h1>
-          </div>
-          <h1 class="line">---------------------------------------------------------------------------------------------------------------------</h1>
-          <br>
-          <div class="content">
-              <h1>I won't say this task was difficult or overwhelming but it was certainly one of the most tedious tasks I have done so far. Whilst doing this task, I had to write a lot of CSS. Many a times my layout wasn't turning out as I had planned, hence I had to brush up my concepts again, and a lot of hit and trial also happened in this course. Prior to this task, I wasn't good at core CSS concepts such as flexbox, but using it in the completion of this task, I think I've got much more clarity on the same.</h1>
-              <br>
-              <h1>All in all, this task was a good experience and completing this gave me a great amount of satisfaction.</h1>
-              <br><br>
-              <h1>Resources & References I followed : -</h1>
-              <br>
-              <ul>
-                  <li><h1><a href="https://www.youtube.com/c/CodeWithHarry" target="_blank">Code With Harry Youtube channel</a></h1></li>
-                  <br>
-                  <li><h1><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">Angela Yu's Web development course</a></h1></li>
-              </ul>
-          </div>
-      </div>
-
-      <div id="contact">
-        <br><br>
-        <h1 class="reachout">Hi ! Feel free to get in touch with me 😃</h1>
-        <h1 class="line">---------------------------------------------------------------------------------------------------------------------</h1>
-        <br>
-        <div class="socials">
-          <div class="linkedin">
-            <a href="https://www.linkedin.com/in/r-v-rajagopalan-7b5a66152/" target="_blank"><img  class="linkedinlogo" src="/task-09/img/linkedin.png" alt=""></a>
-          </div>
-          <div class="twitter">
-            <a href="https://twitter.com/rv260" target="_blank"><img class="twitterlogo" src="/task-09/img/twitter.jpeg" alt=""></a>
-          </div>
-          <div class="github">
-            <a href="https://github.com/rv602" target="_blank"><img class="githublogo" src="/task-09/img/github.png" alt=""></a>
-          </div>
+        <div class="post" id="blog2">
+            <!-- <img src="blog-2.jpg" alt="" class="image"> -->
+            <img src="/task-09/img/pic2.jpeg" alt="" class="image">
+            <div class="date">
+                <i class="far fa-clock"></i>
+                <span>1st March, 2022</span>
+            </div>
+            <h3 class="title">My Experience on this task</h3>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestias rerum numquam, quos aut est culpa quisquam excepturi sed a inventore dicta tempore consequuntur possimus magnam corporis cum doloremque quasi fugiat exercitationem aliquid cupiditate pariatur. Dolor laboriosam voluptatem ex praesentium magni error debitis maxime alias autem distinctio. Fuga, esse velit!</p> -->
+            <p class="text">Doing this task was quite a long and enduring journey but I managed to get it done. Prior to this task, I only had knowledge regarding basics of HTML and CSS. In order to get started with this task, I started to study a bit of more important CSS concepts sucj as flexbox, grid, meaning of a responsive website, CSS units like "rem" etc.</p>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reiciendis fugiat quas nemo quia omnis repellat obcaecati quaerat voluptates fuga error dicta cupiditate pariatur soluta dolorum quis eum quibusdam quam?</p> -->
+            <p class="text">All in all, this task pushed me forward towards my Web Development Journey.</p>
+            <div class="links">
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                    <span>by Rajagopalan</span>
+                </a>
+                <!-- <a href="#" class="icon">
+                    <i class="far fa-comment"></i>
+                    <span>(45)</span>
+                </a>
+                <a href="#" class="icon">
+                    <i class="far fa-share-square"></i>
+                    <span>(29)</span>
+                </a> -->
+            </div>
         </div>
-        <br><br>
-        <img class="gif" src="https://media.giphy.com/media/vikmf2KDVzxyE/giphy.gif" alt="">
-      </div>
-    </main>
-  </body>
+
+        <div class="post" id="blog3">
+            <!-- <img src="blog-3.jpg" alt="" class="image"> -->
+            <img src="/task-09/img/pic3.jpeg" alt="" class="image">
+            <div class="date">
+                <i class="far fa-clock"></i>
+                <span>1st may, 2021</span>
+            </div>
+            <h3 class="title">Conclusion</h3>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestias rerum numquam, quos aut est culpa quisquam excepturi sed a inventore dicta tempore consequuntur possimus magnam corporis cum doloremque quasi fugiat exercitationem aliquid cupiditate pariatur. Dolor laboriosam voluptatem ex praesentium magni error debitis maxime alias autem distinctio. Fuga, esse velit!</p> -->
+            <p class="text">That was all about me. I hope you liked stopping by my website and giving my blogs a read.</p>
+            <!-- <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reiciendis fugiat quas nemo quia omnis repellat obcaecati quaerat voluptates fuga error dicta cupiditate pariatur soluta dolorum quis eum quibusdam quam?</p> -->
+            <p class="text">If you feel I can help you in any way, be sure to hit me up in the contact section and I'll try my best to get back to you.</p>
+            <div class="links">
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                    <span>by Rajagopalan</span>
+                </a>
+                <!-- <a href="#" class="icon">
+                    <i class="far fa-comment"></i>
+                    <span>(45)</span>
+                </a>
+                <a href="#" class="icon">
+                    <i class="far fa-share-square"></i>
+                    <span>(29)</span>
+                </a> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+
+        <div class="box">
+            <h3 class="title">About me</h3>
+            <div class="about">
+                <img src="/task-09/img/pfp.png" alt="">
+                <h3>R.V.Rajagopalan</h3>
+                <p>1st Year Artificial Intelligence Student</p>
+                <p>Interested in Web Development</p>
+                <div class="follow">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">categories</h3>
+            <div class="category">
+                <a class="grey-box" href="javascript:void(0)"> <p>Web Dev</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>iOS Dev</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Android Dev</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Flutter Dev</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>React Native</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Blockchain Dev</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Internet of Things</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Machine Learning</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Computer Vision</p></a>
+                <a class="grey-box" href="javascript:void(0)"> <p>Devops</p></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">popular posts</h3>
+            <div class="p-post">
+                <a href="#blog1">
+                    <h3>01. Task Experiences</h3>
+                    <span><i class="far fa-clock"></i>1st may, 2021</span>
+                </a>
+                <a href="#blog2">
+                    <h3>02. Blogging task experience</h3>
+                    <span><i class="far fa-clock"></i>1st may, 2021</span>
+                </a>
+                <a href="#blog3">
+                    <h3>03. Concluding thoughts</h3>
+                    <span><i class="far fa-clock"></i>1st may, 2021</span>
+                </a>
+                <!-- <a href="#">
+                    <h3>04. blog title goes here</h3>
+                    <span><i class="far fa-clock"></i>1st may, 2021</span>
+                </a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">popular tags</h3>
+            <div class="tags">
+                <a href="javascript:void(0)">Web Dev</a>
+                <a href="javascript:void(0)">iOS Dev</a>
+                <a href="javascript:void(0)">Android Dev</a>
+                <a href="javascript:void(0)">Flutter Dev</a>
+                <a href="javascript:void(0)">React Native</a>
+                <a href="javascript:void(0)">Blockchain Dev</a>
+                <a href="javascript:void(0)">Internet of Things</a>
+                <a href="javascript:void(0)">Machine Learning</a>
+                <a href="javascript:void(0)">Computer Vision</a>
+                <a href="javascript:void(0)">Devops</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- posts section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <form action="">
+        <h3>contact me</h3>
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="text" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea name="" placeholder="message" id="" cols="1" rows="1"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit">created by <span>Rajagopalan</span> Copyright © | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
 </html>
