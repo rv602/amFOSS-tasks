@@ -1,5 +1,5 @@
 function button_1() {
-  localStorage.setItem("Storing stuff");
+  localStorage.setItem("Storing", "stuff");
 }
 
 function button_2() {
